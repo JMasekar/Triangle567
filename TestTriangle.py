@@ -51,7 +51,7 @@ class TestTriangles(unittest.TestCase):
 
     def testRandom3(self):
         """ invalid output testing """
-        self.assertNotEqual(classifyTriangle(3, 4, 2), "Equilateral Triangle")
+        self.assertNotEqual(classifyTriangle(3, 4, 3), "Equilateral Triangle")
         self.assertNotEqual(classifyTriangle(3, 3, 6), "Right Triangle")
 
     def testRandom4(self):
